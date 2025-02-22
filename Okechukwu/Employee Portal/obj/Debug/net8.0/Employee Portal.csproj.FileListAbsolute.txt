@@ -1,0 +1,31 @@
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\appsettings.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\Employee Portal.staticwebassets.runtime.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\Employee Portal.exe
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\Employee Portal.deps.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\Employee Portal.runtimeconfig.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\Employee Portal.dll
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\bin\Debug\net8.0\Employee Portal.pdb
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.AssemblyInfoInputs.cache
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.AssemblyInfo.cs
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.csproj.CoreCompileInputs.cache
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.RazorAssemblyInfo.cache
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.RazorAssemblyInfo.cs
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.sourcelink.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets\msbuild.Employee Portal.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets\msbuild.build.Employee Portal.props
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Employee Portal.props
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Employee Portal.props
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\scopedcss\bundle\Employee Portal.styles.css
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\scopedcss\projectbundle\Employee Portal.bundle.scp.css
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.dll
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\refint\Employee Portal.dll
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.pdb
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\Employee Portal.genruntimeconfig.cache
+C:\Users\bally\Desktop\projectS3\Okechukwu\Employee Portal\obj\Debug\net8.0\ref\Employee Portal.dll
