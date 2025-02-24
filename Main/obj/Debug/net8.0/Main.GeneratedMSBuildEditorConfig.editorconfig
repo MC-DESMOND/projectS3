@@ -9,39 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Main
 build_property.RootNamespace = Main
-build_property.ProjectDir = C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\
+build_property.ProjectDir = C:\Users\MC DESMOND\dextop\aptechlab\projectS3\main\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main
+build_property.MSBuildProjectDirectory = C:\Users\MC DESMOND\dextop\aptechlab\projectS3\main
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/Home/Index.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/Home/Privacy.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/Shared/Error.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/_ViewImports.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/_ViewStart.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/Main/Views/Shared/_Layout.cshtml]
+[C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i1uqmzhr2g

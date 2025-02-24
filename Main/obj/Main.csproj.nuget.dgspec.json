@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj": {}
+    "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj": {
+    "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
+        "projectPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
         "packagesPath": "C:\\Users\\MC DESMOND\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\",
+        "outputPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MC DESMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
