@@ -9,6 +9,11 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
     private readonly ILogger<HomeController> _logger = logger;
     private readonly EmployeeService EmpServices = employeeService;
 
+    public  IActionResult Delete()
+    {
+        return View(); // Pass user details to Delete.cshtml
+    }
+
     public async Task<IActionResult> Index()
     {
         

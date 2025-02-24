@@ -1,0 +1,43 @@
+@* @model DeletePage.Model.Employee *@
+
+@{
+    ViewData["Title"] = "Delete Employee";
+
+     var employee = new {
+        FullName = "John Doe",
+        Email = "johndoe@example.com",
+        Position = "Software Engineer",
+        Department = "IT",
+        DateOfBirth = "1995-06-20",
+        EmployeeType = "Full-Time",
+        Salary = "$80,000"
+    };
+}
+
+<link rel="stylesheet" href="~/css/Delete.css" asp-append-version="true" />
+
+<div class="container">
+    <div class="header">⚠ Are you sure?</div>
+
+    <p class="warning-text">
+        You are about to permanently delete this employee's record. This action is irreversible and will remove all data related to <strong>@Model.FullName</strong>. Please confirm your decision.
+    </p>
+
+    <div class="details">
+        <div><strong>Full Name:</strong> <span>@employee.FullName</span></div>
+        <div><strong>Email:</strong> <span>@employee.Email</span></div>
+        <div><strong>Position:</strong> <span>@employee.Position</span></div>
+        <div><strong>Department:</strong> <span>@employee.Department</span></div>
+        <div><strong>Date of Birth:</strong> <span>@employee.DateOfBirth</span></div>
+        <div><strong>Employee Type:</strong> <span>@employee.EmployeeType</span></div>
+        <div><strong>Salary:</strong> <span>@employee.Salary</span></div>
+    </div>
+
+    <form asp-action="Delete" method="post" onsubmit="return confirmDelete();">
+        <input type="hidden" asp-for="Id" />
+        <div class="buttons">
+            <button type="submit" class="delete-btn">Yes, Delete</button>
+            <a asp-action="Index" class="cancel-btn">Cancel</a>
+        </div>
+    </form>
+</div>
