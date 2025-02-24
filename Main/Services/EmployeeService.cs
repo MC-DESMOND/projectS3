@@ -26,6 +26,8 @@ public class EmployeeService
     public async Task CreateEmployee(Employee employee) =>
         await _employees.InsertOneAsync(employee);
 
+    public async Task DeleteEmployee(string id) =>
+            await _employees.DeleteOneAsync(emp => emp.Id == id);
 
      public async Task<List<Employee>> FilterEmployees(string? name, string? department,string? type)
         {
