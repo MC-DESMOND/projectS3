@@ -1,3 +1,4 @@
 .secure
-
+lib
+bin
 *.comment

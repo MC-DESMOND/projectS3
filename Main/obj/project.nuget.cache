@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TPesDydDte4=",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\Main.csproj",
+=======
+  "dgSpecHash": "S9GDhZEf9Mg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
+>>>>>>> 31e1ef518a7b644fa16629135543557742ae4b9b
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
