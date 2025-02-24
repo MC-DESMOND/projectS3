@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\Main.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\Main.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\obj\\",
-=======
-    "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
-        "projectName": "Main",
-        "projectPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
-        "packagesPath": "C:\\Users\\MC DESMOND\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\",
->>>>>>> 31e1ef518a7b644fa16629135543557742ae4b9b
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
