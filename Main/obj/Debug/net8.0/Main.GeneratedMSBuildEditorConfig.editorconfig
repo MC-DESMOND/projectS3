@@ -18,13 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\MC DESMOND\dextop\aptechlab\projectS3\main
 build_property._RazorSourceGeneratorDebug = 
 
-<<<<<<< HEAD
 [C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Home/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-=======
->>>>>>> main
 [C:/Users/MC DESMOND/dextop/aptechlab/projectS3/main/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
