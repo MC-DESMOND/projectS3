@@ -13,7 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Main")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d914200b195e8cda2804d216bdeefb768b026e37")]
+=======
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d00a4628598ccf26348a6da340d7d7e0fee22ddd")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31e1ef518a7b644fa16629135543557742ae4b9b")]
+>>>>>>> origin/AYO2
+>>>>>>> 33b2d772028cd9dfa75f87b060d308c19277e506
 [assembly: System.Reflection.AssemblyProductAttribute("Main")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Main")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
