@@ -1,0 +1,90 @@
+﻿@model List<Main.Models.Employee>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="~/css/index.css">
+<div class="fill home" style="padding:10px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px;">
+    <section style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: fit-content; padding: 10px; " class="section1">
+        <div style="color:rgb(13,110,253); font-size: larger; font-weight: bold;">
+            Employee List
+        </div>
+
+        <a href="">
+            <div style="background-color: #198754;color:white; border-radius: 3px; padding: 10px; padding-inline: 15px;">
+                <i class="fa-solid fa-circle-plus"></i> Create New Employee
+            </div>
+        </a>
+    </section>
+    <section style="border-radius: 10px; overflow: hidden;">
+        <div style="background-color: #0d6efd; display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+            <div style="font-size:larger; font-weight: bolder; color: white;">🔍 Filter Employees</div>
+            <div style="padding: 10px;padding-block: 5px; background-color: white; border-radius: 3px;">Total Employees: @Model.Count</div>
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr auto; gap: 20px; box-sizing: border-box; padding: 20px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+                <div class="fsc">
+                    <div style="width: 100%;"> 🔍 Search by Name</div>
+                    <input id="name" style="width: 100%;" type="text" placeholder="Type a Name">
+                </div>
+                <div class="fsc">
+                    <div style="width: 100%;"> 🏬 Department</div>
+                    <input id="dept" style="width: 100%;" type="text" placeholder="All Departments">
+                </div>
+                <div class="fsc">
+                    <div style="width: 100%;"> 👔 Employee Type</div>
+                    <input id="type" style="width: 100%;" type="text" placeholder="All Employee type">
+                </div>
+            </div>
+            <div style="height: fit-content;">
+                <div id="filter" style="background-color: #198754;color:white; border-radius: 3px; padding: 5px; padding-inline: 30px; padding-inline: 15px;">
+                    Filter 🎯
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="border-radius: 10px; overflow: hidden;">
+        <table style="gap: 20px; width: 100%; box-sizing: border-box;">
+            <th>
+                <tr style="background-color: #0d6efd; padding: 20px;">
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px;">📛 Name</td>
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px;">📧 Email</td>
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px;">💼 Position</td>
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px;">🏬 Department</td>
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px;">⚧️ Gender</td>
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px;">👔 Type</td>
+                    <td style="font-size: 12px; font-weight: bolder; color: white; padding: 10px; display: flex; justify-content: center;">⚙️ action</td>
+                </tr>
+            </th>
+            <tbody>
+                @foreach (var emp in Model)
+                {
+                    <tr>
+                        @* <td>@emp.Id</td> *@
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px;">@emp.Name</td>
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px;">@emp.Email</td>
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px;">@emp.Position</td>
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px;">@emp.Department</td>
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px;">@emp.Gender</td>
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px;">@emp.Type</td>
+                        <td style="font-size:12px; padding-inline: 10px; padding-block: 5px; display: flex; justify-content: center;">
+                            <div style="display: flex; gap: 3px;">
+                                <div style="padding: 5px; padding-inline: 10px;color:black;background-color:#0dcaf0; border-radius: 4px;"><i class="fa-regular fa-eye"></i> Details</div>
+                                <div style="padding: 5px; padding-inline: 10px;color:black;background-color:#ffc107; border-radius: 4px;"><i class="fa-solid fa-pencil"></i> Update</div>
+                                <div style="padding: 5px; padding-inline: 10px;color:white;background-color:#dc3545; border-radius: 4px;"><i class="fa-solid fa-trash"></i> Delete</div>
+                            </div>
+
+                        </td>
+                    </tr> 
+                }
+            </tbody>
+        </table>
+        <br>
+    </section>
+   
+</div>
+
+ <script src="~/js/index.js">
+    
+</script>
