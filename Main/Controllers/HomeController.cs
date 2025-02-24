@@ -9,9 +9,19 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
     private readonly ILogger<HomeController> _logger = logger;
     private readonly EmployeeService EmpServices = employeeService;
 
-    public  IActionResult Delete()
+    [HttpGet("delete")]
+    public  async Task<IActionResult> Delete([FromQuery] string id)
     {
-        return View(); // Pass user details to Delete.cshtml
+        // EmpServices.DeleteEmployee(id);
+        var employee = await EmpServices.GetEmployeeById(id);
+        return View(employee); // Pass user details to Delete.cshtml
+    }
+    [HttpGet("deleted")]
+    public  async Task<IActionResult> Deleted([FromQuery] string  id)
+    {
+        var employee = await EmpServices.GetEmployeeById(id);
+        await EmpServices.DeleteEmployee(id);
+        return View(employee); // Pass user details to Delete.cshtml
     }
 
     public async Task<IActionResult> Index()

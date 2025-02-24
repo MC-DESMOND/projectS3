@@ -26,6 +26,9 @@ public class Employee
     
     [BsonElement("salary")]
     public string Salary { get; set; }
+    
+    [BsonElement("Dateofbirth")]
+    public string DateOfBirth { get; set; }
 
     [BsonElement("type")]
     [BsonRepresentation(BsonType.String)] 
