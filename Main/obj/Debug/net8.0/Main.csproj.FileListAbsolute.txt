@@ -37,3 +37,15 @@ C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\SharpCompre
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\Snappier.dll
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.csproj.Up2Date
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.AssemblyInfo.cs
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.sourcelink.json
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.dll
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\refint\Main.dll
+C:\Users\USER\Desktop\DeletePage\projectS3\main\obj\Debug\net8.0\Main.pdb

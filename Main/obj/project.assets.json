@@ -599,19 +599,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MC DESMOND\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
-      "packagesPath": "C:\\Users\\MC DESMOND\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\Main.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MC DESMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -666,7 +666,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
