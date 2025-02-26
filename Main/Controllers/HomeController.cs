@@ -9,20 +9,71 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
     private readonly ILogger<HomeController> _logger = logger;
     private readonly EmployeeService EmpServices = employeeService;
 
-    [HttpGet("delete")]
-    public  async Task<IActionResult> Delete([FromQuery] string id)
+//Dummy Delete
+[HttpGet("delete")]
+public async Task<IActionResult> Delete([FromQuery] string id)
+{
+    var employee = await EmpServices.GetEmployeeById(id);
+
+    if (employee == null)
     {
-        // EmpServices.DeleteEmployee(id);
-        var employee = await EmpServices.GetEmployeeById(id);
-        return View(employee); // Pass user details to Delete.cshtml
+        employee = new Employee
+        {
+            Id = id,
+            Name = "John Doe",
+            Email = "johndoe@example.com",
+            Position = "Software Developer",
+            Department = "IT",
+            DateOfBirth = "1990-05-15",
+            Type = EmployeeType.Permanent,
+            Salary = "50000"
+        };
     }
+
+    return View(employee);
+}
+
+
+
+
+
+
+//Main Delete
+    // [HttpGet("delete")]
+    // public  async Task<IActionResult> Delete([FromQuery] string id)
+    // {
+    //     // EmpServices.DeleteEmployee(id);
+    //     var employee = await EmpServices.GetEmployeeById(id);
+    //     return View(employee); // Pass user details to Delete.cshtml
+    // }
     [HttpGet("deleted")]
-    public  async Task<IActionResult> Deleted([FromQuery] string  id)
+    [HttpGet("deleted")]
+public async Task<IActionResult> Deleted([FromQuery] string id)
+{
+    // Dummy employee data (same as above)
+    var employee = new Employee
     {
-        var employee = await EmpServices.GetEmployeeById(id);
-        await EmpServices.DeleteEmployee(id);
-        return View(employee); // Pass user details to Delete.cshtml
-    }
+        Id = id,
+        Name = "John Doe",
+        Email = "johndoe@example.com",
+        Position = "Software Developer",
+        Department = "IT",
+        DateOfBirth = new DateTime(990, 5, 15).ToString("yyyy-MM-dd"),
+        Type = EmployeeType.Permanent,
+        Salary = "50000"
+    };
+
+    await EmpServices.DeleteEmployee(id); // Keep the delete operation
+
+    return View(employee);
+}
+
+    // public  async Task<IActionResult> Deleted([FromQuery] string  id)
+    // {
+    //     var employee = await EmpServices.GetEmployeeById(id);
+    //     await EmpServices.DeleteEmployee(id);
+    //     return View(employee); // Pass user details to Delete.cshtml
+    // }
 
     public async Task<IActionResult> Index()
     {
