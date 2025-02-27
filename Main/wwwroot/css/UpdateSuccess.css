@@ -1,0 +1,62 @@
+.update-success-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #28a745;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.employee-details {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 20px 0;
+}
+
+.employee-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-warning {
+    background: #ffc107;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover, .btn-warning:hover {
+    opacity: 0.8;
+}

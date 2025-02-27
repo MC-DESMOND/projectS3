@@ -1,0 +1,25 @@
+@model Main.Models.Employee
+<link rel="stylesheet" href="~/css/UpdateSuccess.css" />
+
+@{
+    ViewBag.Title = "Update Successful";
+}
+
+<div class="update-success-container">
+    <h2>✅ Update Successful</h2>
+    <p>The details for <strong>@Model.Name</strong> have been updated successfully.</p>
+
+    <div class="employee-details">
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Department:</strong> @Model.Department</p>
+        <p><strong>Position:</strong> @Model.Position</p>
+        <p><strong>Type:</strong> @Model.Type</p>
+        <p><strong>Gender:</strong> @Model.Gender</p>
+        <p><strong>Salary:</strong> $@Model.Salary</p>
+    </div>
+
+    <div class="button-group">
+        @Html.ActionLink("🔙 Back to Employee List", "Index", "Employee", new { }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("✏️ Edit Again", "Update", "Employee", new { id = Model.Id }, new { @class = "btn btn-warning" })
+    </div>
+</div>
