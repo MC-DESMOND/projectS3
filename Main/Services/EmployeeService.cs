@@ -26,8 +26,13 @@ public class EmployeeService
     public async Task CreateEmployee(Employee employee) =>
         await _employees.InsertOneAsync(employee);
 
+        public async Task UpdateEmployee(string id, Employee updatedEmployee)
+        {
+           await _employees.ReplaceOneAsync(emp => emp.Id == id, updatedEmployee);
+        }
 
-     public async Task<List<Employee>> FilterEmployees(string? name, string? department,string? type)
+
+        public async Task<List<Employee>> FilterEmployees(string? name, string? department,string? type)
         {
             var filter = Builders<Employee>.Filter.Empty;
 

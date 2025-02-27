@@ -1,0 +1,64 @@
+@model Main.Models.Employee
+
+@{
+    ViewBag.Title = "Update Employee Details";
+}
+
+<h2>✏️ Update Employee Details</h2>
+
+@using (Html.BeginForm("Update", "Employee", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email)
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control", type = "email" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Department)
+        @Html.DropDownListFor(model => model.Department, new SelectList(ViewBag.Departments), "Select Department", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Position)
+        @Html.TextBoxFor(model => model.Position, new { @class = "form-control" })
+    </div>
+
+    @* <div class="form-group">
+        @Html.LabelFor(model => model.HireDate)
+        @Html.TextBoxFor(model => model.HireDate, new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DateOfBirth)
+        @Html.TextBoxFor(model => model.DateOfBirth, new { @class = "form-control", type = "date" })
+    </div> *@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Type)
+        @Html.DropDownListFor(model => model.Type, new SelectList(new[] { "Permanent", "Contract", "Intern" }), "Select Type", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Gender)
+        <div>
+            @Html.RadioButtonFor(model => model.Gender, "Male") Male
+            @Html.RadioButtonFor(model => model.Gender, "Female") Female
+            @Html.RadioButtonFor(model => model.Gender, "Other") Other
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Salary)
+        @Html.TextBoxFor(model => model.Salary, new { @class = "form-control", type = "number", step = "0.01" })
+    </div>
+
+    <button type="submit" class="btn btn-success">✔ Update Employee</button>
+    @Html.ActionLink("🔙 Back to Employee List", "Index", "Employee", new { }, new { @class = "btn btn-primary" })
+}

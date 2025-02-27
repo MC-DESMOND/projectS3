@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bally\\.nuget\\packages\\": {}
+    "/Users/user/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
+      "projectUniqueName": "/Users/user/Desktop/projectS3/Okechukwu/Employee Portal/Employee Portal.csproj",
       "projectName": "Employee Portal",
-      "projectPath": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
-      "packagesPath": "C:\\Users\\bally\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\obj\\",
+      "projectPath": "/Users/user/Desktop/projectS3/Okechukwu/Employee Portal/Employee Portal.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Desktop/projectS3/Okechukwu/Employee Portal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bally\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/user/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
