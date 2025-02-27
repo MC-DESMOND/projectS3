@@ -9,17 +9,17 @@ namespace Main.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly EmployeeService _empServices;
+    private readonly EmployeeService EmpServices;
 
     public HomeController(ILogger <HomeController> logger, EmployeeService employeeService)
     {
         _logger = logger;
-        _empServices = employeeService;
+        EmpServices = employeeService;
     }
 
     public async Task<IActionResult> Index()
     {
-        await _empServices.CreateEmployee(
+        await EmpServices.CreateEmployee(
             new Employee{
                 Name = "okechukwu",
                 Email = "rggrb@gmail.com",
@@ -30,20 +30,20 @@ public class HomeController : Controller
                 Type = EmployeeType.Permanent
             }
         );
-        var employees = await _empServices.GetAllEmployees();
+        var employees = await EmpServices.GetAllEmployees();
         return View(employees);
     }
 
     [HttpGet("filter")]
     public async Task<IActionResult> Index([FromQuery] string? name, [FromQuery] string? department, [FromQuery] string? type)
     {
-        var employees = await _empServices.FilterEmployees(name, department, type);
+        var employees = await EmpServices.FilterEmployees(name, department, type);
         return View(employees);
     }
     [HttpGet("details")]
     public async Task<IActionResult> Details( [FromQuery] string? id)
     {
-        var employees = await _empServices.GetEmployeeById(id);
+        var employees = await EmpServices.GetEmployeeById(id);
         return View(employees);
     }
 
@@ -56,7 +56,7 @@ public class HomeController : Controller
             return BadRequest("Invalid employee ID.");
         }
 
-        var employee = await _empServices.GetEmployeeById(id);
+        var employee = await EmpServices.GetEmployeeById(id);
         if (employee == null)
         {
             return NotFound("Employee not found.");
@@ -73,7 +73,7 @@ public class HomeController : Controller
             return BadRequest("Invalid employee ID.");
         }
 
-        var employee = await _empServices.GetEmployeeById(id);
+        var employee = await EmpServices.GetEmployeeById(id);
         if (employee == null)
         {
             return NotFound("Employee not found.");
