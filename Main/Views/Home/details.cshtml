@@ -1,0 +1,84 @@
+@model Main.Models.Employee
+@{
+    Layout = null; // Remove or change this if you're using a shared Layout
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/details.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<div class="employee-details-container">
+    <!-- Header Section -->
+    <div class="header-section">
+        <!-- Replace image with Font Awesome icon -->
+        <div class="user-icon-wrapper">
+            <i class="fas fa-user-circle"></i>
+        </div>
+
+        <!-- Employee Name -->
+        <h2>@Model.Name</h2>
+
+        <!-- Employee ID -->
+        <p>Employee ID: @Model.Id</p>
+    </div>
+
+    <hr />
+
+    <!-- Details Section -->
+    <div class="details-section">
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-envelope"></i> Email:</span>
+            <span class="value">@Model.Email</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-briefcase"></i> Position:</span>
+            <span class="value">@Model.Department</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-building"></i> Department:</span>
+            <span class="value">@Model.Position</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-calendar-alt"></i> Hire Date:</span>
+            <span class="value">August 30, 2021</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-birthday-cake"></i> Date of Birth:</span>
+            <span class="value">August 30, 1994</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-user-tie"></i> Employee Type:</span>
+            <span class="value">@Model.Type</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-venus-mars"></i> Gender:</span>
+            <span class="value">@Model.Gender</span>
+        </div>
+        <div class="detail-item">
+            <span class="label"><i class="fas fa-money-bill-wave"></i> Salary:</span>
+            <span class="value">@Model.Salary</span>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="actions-section">
+        <!-- Update Button -->
+        <button class="btn update-btn">
+            <i class="fas fa-edit"></i>
+            Update
+        </button>
+
+        <!-- Delete Button -->
+        <button class="btn delete-btn">
+            <i class="fas fa-trash-alt"></i>
+            Delete
+        </button>
+
+        <!-- Back to List Button -->
+        <button class="btn back-btn">
+            <i class="fas fa-arrow-left"></i>
+            Back to List
+        </button>
+    </div>
+</div>

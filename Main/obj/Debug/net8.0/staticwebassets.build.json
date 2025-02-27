@@ -1,6 +1,10 @@
 {
   "Version": 1,
-  "Hash": "6Fyfn/K1PjST2Ov7hS0a+ramqlna+3rRDF1ulAdx3ZM=",
+<<<<<<< HEAD
+  "Hash": "Oyhx4AR9JQlQg+KNDoUonbkNxwonyyax2+5vGo9NB7U=",
+=======
+  "Hash": "TaLu9HeIVvUE4B5xwzEXjVeDfJGHYk3IPCsQ+oz5M5A=",
+>>>>>>> origin
   "Source": "Main",
   "BasePath": "_content/Main",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "Main\\wwwroot",
       "Source": "Main",
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+=======
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css",
+      "SourceId": "Main",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css",
       "SourceId": "Main",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "Main.styles.css",
       "AssetKind": "All",
@@ -33,6 +48,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css",
+      "SourceId": "Main",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
       "OriginalItemSpec": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css"
     },
     {
@@ -40,6 +64,7 @@
       "SourceId": "Main",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "Main.bundle.scp.css",
       "AssetKind": "All",
@@ -52,15 +77,27 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\css\\Delete.css",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+      "BasePath": "_content/Main",
+      "RelativePath": "css/Delete.css",
+=======
       "OriginalItemSpec": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\Delete.css",
+      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\details.css",
       "SourceId": "Main",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
-      "RelativePath": "css/Delete.css",
+      "RelativePath": "css/details.css",
+>>>>>>> origin
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,13 +108,23 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\css\\Delete.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\css\\index.css",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\index.css",
       "SourceId": "Main",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -93,10 +140,17 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\css\\site.css",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\site.css",
       "SourceId": "Main",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,10 +166,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\favicon.ico",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\favicon.ico",
       "SourceId": "Main",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +192,17 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\js\\index.js",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\js\\index.js",
       "SourceId": "Main",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -150,10 +218,17 @@
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\js\\site.js",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\js\\site.js",
       "SourceId": "Main",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+>>>>>>> origin
       "BasePath": "_content/Main",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
