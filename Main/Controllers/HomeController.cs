@@ -46,7 +46,7 @@ public async Task<IActionResult> Delete([FromQuery] string id)
     //     var employee = await EmpServices.GetEmployeeById(id);
     //     return View(employee); // Pass user details to Delete.cshtml
     // }
-    [HttpGet("deleted")]
+
     [HttpGet("deleted")]
 public async Task<IActionResult> Deleted([FromQuery] string id)
 {
