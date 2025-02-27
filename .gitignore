@@ -1,5 +1,4 @@
 .secure
 lib
 bin
-obj
 *.comment

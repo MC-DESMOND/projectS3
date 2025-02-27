@@ -40,6 +40,13 @@ public class HomeController : Controller
         var employees = await _empServices.FilterEmployees(name, department, type);
         return View(employees);
     }
+    [HttpGet("details")]
+    public async Task<IActionResult> Details( [FromQuery] string? id)
+    {
+        var employees = await EmpServices.GetEmployeeById(id);
+        return View(employees);
+    }
+
 
     [HttpGet("update")]
     public async Task<IActionResult> Update([FromQuery] string? id)
