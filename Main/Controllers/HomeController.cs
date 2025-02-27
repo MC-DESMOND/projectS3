@@ -21,6 +21,13 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
         var employees = await EmpServices.FilterEmployees(name, department,type);
         return View(employees);
     }
+    [HttpGet("details")]
+    public async Task<IActionResult> Details( [FromQuery] string? id)
+    {
+        var employees = await EmpServices.GetEmployeeById(id);
+        return View(employees);
+    }
+
 
     public IActionResult Privacy()
     {

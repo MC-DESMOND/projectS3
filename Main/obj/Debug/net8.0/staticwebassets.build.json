@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YnKRH/WGt9inK6b5okzA8hbtH6lqYkZYQUvjLDx50JY=",
+  "Hash": "TaLu9HeIVvUE4B5xwzEXjVeDfJGHYk3IPCsQ+oz5M5A=",
   "Source": "Main",
   "BasePath": "_content/Main",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\details.css",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+      "BasePath": "_content/Main",
+      "RelativePath": "css/details.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\index.css",
