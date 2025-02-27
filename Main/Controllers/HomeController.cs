@@ -22,6 +22,22 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
         return View(employees);
     }
 
+    [HttpPost("create")]
+    public IActionResult Create(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
+    {
+        DateTime parsedHireDate = DateTime.Parse(hireDate);
+        DateTime parsedDateOfBirth = DateTime.Parse(dateOfBirth);
+        decimal parsedSalary = decimal.Parse(salary);
+        var employee = new Employee{
+            Name = fullName,
+            Email = email,
+            Department = department,
+            Position = position,
+            Type = em,
+
+        }
+    }
+
     public IActionResult Privacy()
     {
         return View();

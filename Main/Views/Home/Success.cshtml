@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "User Created!";
+    Layout = null;
+}
+
+<h2>Employee Created Successfully</h2>
+
+<p><strong>Full Name:</strong> @ViewBag.FullName</p>
+<p><strong>Email:</strong> @ViewBag.Email</p>
+<p><strong>Department:</strong> @ViewBag.Department</p>
+<p><strong>Position:</strong> @ViewBag.Position</p>
+<p><strong>Hire Date:</strong> @ViewBag.HireDate</p>
+<p><strong>Date of Birth:</strong> @ViewBag.DateOfBirth</p>
+<p><strong>Employee Type:</strong> @ViewBag.EmployeeType</p>
+<p><strong>Gender:</strong> @ViewBag.Gender</p>
+<p><strong>Salary:</strong> @ViewBag.Salary</p>
+
+<a href = "/CreateUser">
+    <button>Create Another Employee</button>
+</a>
