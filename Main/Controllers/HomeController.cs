@@ -59,6 +59,7 @@ public async Task<IActionResult> Deleted([FromQuery] string id)
         var employees = await EmpServices.FilterEmployees(name, department,type);
         return View(employees);
     }
+    
     [HttpGet("details")]
     public async Task<IActionResult> Details( [FromQuery] string? id)
     {
