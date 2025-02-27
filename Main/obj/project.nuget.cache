@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "bLArjQo51zk=",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\Main.csproj",
-=======
-  "dgSpecHash": "K1gqOklF1i0=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
->>>>>>> origin
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
@@ -25,5 +19,12 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\USER\\Desktop\\DeletePage\\projectS3\\Main\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

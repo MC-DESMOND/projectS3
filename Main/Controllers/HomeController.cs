@@ -49,6 +49,7 @@ public async Task<IActionResult> Deleted([FromQuery] string id)
         });}
     public async Task<IActionResult> Index()
     {
+        
         // createDummyEmpWithName("Anita Doew","Female");
         var employees = await EmpServices.GetAllEmployees();
         return View(employees);
