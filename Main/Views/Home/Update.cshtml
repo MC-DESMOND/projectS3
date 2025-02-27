@@ -6,10 +6,8 @@
 
 <h2>✏️ Update Employee Details</h2>
 
-@using (Html.BeginForm("Update", "Employee", FormMethod.Post))
-{
+@using (Html.BeginForm("Update", "Employee", FormMethod.Post)){
     @Html.AntiForgeryToken()
-
     <div class="form-group">
         @Html.LabelFor(model => model.Name)
         @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })

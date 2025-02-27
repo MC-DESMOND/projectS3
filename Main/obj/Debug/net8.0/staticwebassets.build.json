@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TaLu9HeIVvUE4B5xwzEXjVeDfJGHYk3IPCsQ+oz5M5A=",
+  "Hash": "2aTz6mm/PM942FGJtfXvPkCdDeJKxw0HLAIaXrEy+KU=",
   "Source": "Main",
   "BasePath": "_content/Main",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\css\\UpdateSuccess.css",
+      "SourceId": "Main",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\",
+      "BasePath": "_content/Main",
+      "RelativePath": "css/UpdateSuccess.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\UpdateSuccess.css"
     },
     {
       "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\wwwroot\\favicon.ico",

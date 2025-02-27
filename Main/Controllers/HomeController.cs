@@ -43,7 +43,7 @@ public class HomeController : Controller
     [HttpGet("details")]
     public async Task<IActionResult> Details( [FromQuery] string? id)
     {
-        var employees = await EmpServices.GetEmployeeById(id);
+        var employees = await _empServices.GetEmployeeById(id);
         return View(employees);
     }
 
