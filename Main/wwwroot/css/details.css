@@ -1,0 +1,279 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+/* Container for the entire details card */
+.employee-details-container {
+    max-width: 50%;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header section (icon, name, employee ID) */
+.header-section {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.employee-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Employee name */
+.header-section h2 {
+    margin: 5px 0;
+    font-size: 24px;
+    color: #1a73e8;
+    /* A nice blue color for the name */
+}
+
+/* Employee ID text */
+.header-section p {
+    /* font-size: 14px; */
+    color: #666;
+}
+
+/* Horizontal line to separate header and details */
+hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* Main details area */
+.details-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+/* Each row of label + value */
+.detail-item {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 100px;
+}
+
+/* Label styling */
+.label {
+    width: 150px;
+    font-weight: 500;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.label i {
+    color: #1a73e8;
+    width: 16px;
+    text-align: center;
+}
+
+/* Value styling */
+.value {
+    flex: 1;
+    color: #333;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Buttons section at the bottom */
+.actions-section {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+/* Base button styles */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 14.5px 35px;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    font-size: 14px;
+}
+
+/* Icon inside the button */
+.btn-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+/* Update button (blue) */
+.update-btn {
+    background-color: #1a73e8;
+}
+
+/* Delete button (red) */
+.delete-btn {
+    background-color: #d93025;
+}
+
+/* Back button (gray) */
+.back-btn {
+    background-color: #6c757d;
+}
+
+.user-icon-wrapper {
+    margin-bottom: 10px;
+}
+
+.user-icon-wrapper i {
+    font-size: 60px;
+    color: #1a73e8;
+}
+
+.btn i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* Desktop - 1024px */
+@media screen and (max-width: 1024px) {
+    .employee-details-container {
+        max-width: 70%;
+        margin: 50px auto;
+        padding: 25px;
+        align-items: center;
+    }
+
+    .details-section {
+        padding-left: 30px;
+    }
+
+    .actions-section {
+        gap: 60px;
+    }
+}
+
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+    .employee-details-container {
+        max-width: 85%;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .details-section {
+        padding-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .detail-item {
+        gap: 50px;
+    }
+
+    .actions-section {
+        gap: 30px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 13px;
+    }
+}
+
+/* Mobile L - 480px */
+@media screen and (max-width: 480px) {
+    .employee-details-container {
+        max-width: 95%;
+        margin: 0;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .header-section h2 {
+        font-size: 20px;
+    }
+
+    .details-section {
+        padding-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .detail-item {
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+
+    .label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .actions-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+}
+
+/* Mobile S - 360px */
+@media screen and (max-width: 360px) {
+    .employee-details-container {
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .user-icon-wrapper i {
+        font-size: 50px;
+    }
+
+    .header-section h2 {
+        font-size: 18px;
+    }
+
+    .header-section p {
+        font-size: 12px;
+    }
+
+    .value {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .btn i {
+        font-size: 14px;
+    }
+}
