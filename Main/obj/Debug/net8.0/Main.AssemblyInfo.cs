@@ -13,19 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Main")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ae559a69fc2262ce38e746f15854a7adf922ef7")]
-=======
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+821a8f603f671316f080f0672896ce1a73fe20b0")]
-=======
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffb0fd89bebb77bb32aa2d3acf9b94bcfc1ce761")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9415e74b712524ae0b4d8bfb34d617cdbe091b85")]
->>>>>>> origin
->>>>>>> 1ae559a69fc2262ce38e746f15854a7adf922ef7
->>>>>>> c1df7507b439b9ae611dcf8601db79efbdb29920
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bd9c7da85dad1f9e129d071297efa47de048d09")]
 [assembly: System.Reflection.AssemblyProductAttribute("Main")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Main")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
