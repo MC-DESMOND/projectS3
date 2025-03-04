@@ -52,7 +52,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
             salary = salary
         });}
     [HttpGet("success")]
-    public IActionResult Success(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
+    public IActionResult CreateSuccess(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
     {
         ViewBag.FullName = fullName;
         ViewBag.Email = email;
