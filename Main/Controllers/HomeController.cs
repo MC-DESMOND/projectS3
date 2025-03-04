@@ -22,6 +22,11 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
         return View(employees);
     }
 
+    [HttpGet("createform")]
+    public IActionResult Create(){
+        return View();
+    }
+
     [HttpPost("create")]
     public async Task<IActionResult> Create(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
     {
