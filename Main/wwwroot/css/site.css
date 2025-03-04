@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+#fa-user
+{
+    color: #3F025C;
+}
+
+#fa-envelope,
+#fa-calendar-days,
+#fa-user-tie
+{
+    color: #1A73E8;
+}
+
+#fa-building
+{
+    color: #555555;
+}
+
+#fa-briefcase
+{
+    color: #A0522D;
+}
+
+#fa-cake-candles
+{
+    color: #C68642;
+}
+
+#fa-venus-mars
+{
+    color: #A30389;
+}
+
+#fa-sack-dollar
+{
+    color: #B5651D;
+}
+
+#fa-user-plus
+{
+    color: #FFFFFF;
+    background-color: #03B95E;
+}
+
+
+/* CREATE PAGE */
+.page-container
+{
+    max-width: 50%;
+    margin: 50px auto;
+    font-family: "Open Sans", serif;
+}
+
+.page-container .header
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.page-container .header i
+{
+    font-size: 25px;
+}
+
+.page-container .header h2
+{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1A73E8;
+}
+
+form .name-container,
+form .email-container,
+form .dept-container,
+form .position-container,
+form .hire-date-container,
+form .dob-container,
+form .emp-type-container,
+form .gender-container,
+form .salary-container
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form .name-container label,
+form .email-container div,
+form .dept-container div,
+form .position-container div,
+form .hire-date-container div,
+form .dob-container div,
+form .emp-type-container div,
+form .gender-container .key,
+form .salary-container div
+{
+    width: 150px;
+}
+
+form .name-container input,
+form .email-container input,
+form .dept-container select,
+form .position-container select,
+form .hire-date-container input,
+form .dob-container input,
+form .emp-type-container select,
+form .gender-container .value,
+form .salary-container input
+{
+    flex: 1;
+}
+
+form .name-container input,
+form .email-container input,
+form .dept-container select,
+form .position-container select,
+form .hire-date-container input,
+form .dob-container input,
+form .emp-type-container select,
+form .salary-container input
+{
+    padding: 5px 10px;
+    color: #505050;
+    border: 2px solid #F0F0F0;
+    border-radius: 5px;
+}
+
+form .name-container input::placeholder,
+form .email-container input::placeholder,
+form .salary-container input::placeholder
+{
+    color: #909090;
+}
+
+form .name-container input:focus,
+form .email-container input:focus,
+form .hire-date-container input:focus,
+form .dob-container input:focus,
+form .salary-container input:focus
+{
+    outline: auto #DAD8D9;
+}
+
+form .name-container label
+{
+    display: flex;
+    align-items: center;
+}
+
+form .email-container div,
+form .dept-container div,
+form .position-container div,
+form .hire-date-container div,
+form .dob-container div,
+form .emp-type-container div,
+form .gender-container .key,
+form .gender-container .value,
+form .salary-container div
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form .salary-container input[type="number"]::-webkit-inner-spin-button,
+form .salary-container input[type="number"]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+}
+
+form .redirect-buttons
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+form .redirect-buttons button
+{
+    padding: 10px 12px;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #03B95E;
+    border: none;
+    border-radius: 5px;
+}
+
+form .redirect-buttons button i
+{
+    margin-right: 5px;
+}
+
+form .redirect-buttons button:nth-child(2)
+{
+    background-color: #1A73E8;
+}
+
+
+/* SUCCESS PAGE */
+.success-page
+{
+    max-width: 50%;
+    margin: 50px auto;
+    font-family: "Open Sans", serif;
+}
+
+.success-page .header
+{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-page .header div
+{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.success-page .header div i
+{
+    font-size: 25px;
+    color: #03B95E;
+}
+
+.success-page .header div h2
+{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #03B95E;
+}
+
+.success-page .header p
+{
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #555555;
+}
+
+.success-page .body .details
+{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.success-page .body .details div
+{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.success-page .body .details div p,
+.success-page .body .details p
+{
+    margin: 0;
+    font-size: 15px;
+}
+
+.success-page .body .details div p
+{
+    color: #555555;
+    font-weight: 600;
+}
+
+.success-page .redirect-buttons
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.success-page .redirect-buttons a button
+{
+    padding: 10px 12px;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #03B95E;
+    border: none;
+    border-radius: 5px;
+}
+
+.success-page .redirect-buttons a button i
+{
+    margin-right: 5px;
+}
+
+.success-page .redirect-buttons a:nth-child(2) button
+{
+    background-color: #1A73E8;
+}
