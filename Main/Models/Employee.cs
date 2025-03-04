@@ -41,5 +41,7 @@ public class Employee
 public enum EmployeeType
 {
     Contract,
-    Permanent
+    Permanent,
+    Temporary,
+    
 }
