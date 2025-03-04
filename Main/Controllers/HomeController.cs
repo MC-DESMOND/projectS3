@@ -45,7 +45,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
             Type = EmpServices.ReturnEmployeeType(employeeType),
         };
          await EmpServices.CreateEmployee(employee);
-        return RedirectToAction("success", new{
+        return RedirectToAction("CreateSuccess", new{
             fullName = fullName,
             email = email,
             department = department,
@@ -56,7 +56,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
             gender = gender,
             salary = salary
         });}
-    [HttpGet("success")]
+    [HttpGet]
     public IActionResult CreateSuccess(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
     {
         ViewBag.FullName = fullName;
