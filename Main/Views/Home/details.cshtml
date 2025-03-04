@@ -41,11 +41,11 @@
         </div>
         <div class="detail-item">
             <span class="label"><i class="fas fa-calendar-alt"></i> Hire Date:</span>
-            <span class="value">August 30, 2021</span>
+            <span class="value">@Model.HireDate</span>
         </div>
         <div class="detail-item">
             <span class="label"><i class="fas fa-birthday-cake"></i> Date of Birth:</span>
-            <span class="value">August 30, 1994</span>
+            <span class="value">@Model.DateOfBirth</span>
         </div>
         <div class="detail-item">
             <span class="label"><i class="fas fa-user-tie"></i> Employee Type:</span>
@@ -76,7 +76,7 @@
         </button>
 
         <!-- Back to List Button -->
-        <button class="btn back-btn">
+        <button class="btn back-btn" onclick="window.open('/','_self').focus() ">
             <i class="fas fa-arrow-left"></i>
             Back to List
         </button>

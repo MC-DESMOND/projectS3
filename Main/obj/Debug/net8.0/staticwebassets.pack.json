@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Main.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Main.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Main.props",
+      "PackagePath": "build\\Main.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Main.props",
+      "PackagePath": "buildMultiTargeting\\Main.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Main.props",
+      "PackagePath": "buildTransitive\\Main.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
