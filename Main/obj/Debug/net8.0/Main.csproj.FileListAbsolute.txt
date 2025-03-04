@@ -37,3 +37,45 @@ C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\SharpCompre
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\Snappier.dll
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.csproj.Up2Date
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\appsettings.json
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.staticwebassets.runtime.json
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.staticwebassets.endpoints.json
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.exe
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.deps.json
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.runtimeconfig.json
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.dll
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Main.pdb
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\DnsClient.dll
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\Snappier.dll
+C:\Users\HD\Desktop\projectS3\Main\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.csproj.AssemblyReference.cache
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.AssemblyInfoInputs.cache
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.AssemblyInfo.cs
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.csproj.CoreCompileInputs.cache
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.RazorAssemblyInfo.cache
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.RazorAssemblyInfo.cs
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.sourcelink.json
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\scopedcss\bundle\Main.styles.css
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\scopedcss\projectbundle\Main.bundle.scp.css
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets\msbuild.Main.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets\msbuild.Main.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets\msbuild.build.Main.props
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Main.props
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Main.props
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.csproj.Up2Date
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.dll
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\refint\Main.dll
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.pdb
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.genruntimeconfig.cache
+C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\ref\Main.dll

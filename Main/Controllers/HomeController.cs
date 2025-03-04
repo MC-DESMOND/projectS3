@@ -23,7 +23,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
     }
 
     [HttpPost("create")]
-    public IActionResult Create(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
+    public async Task<IActionResult> Create(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
     {
         DateTime parsedHireDate = DateTime.Parse(hireDate);
         DateTime parsedDateOfBirth = DateTime.Parse(dateOfBirth);
@@ -33,10 +33,49 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
             Email = email,
             Department = department,
             Position = position,
-            Type = em,
+            HireDate = hireDate,
+            DateOfBirth = dateOfBirth,
+            Salary = salary,
+            Gender = gender,
+            Type = EmpServices.ReturnEmployeeType(employeeType),
+        };
+         await EmpServices.CreateEmployee(employee);
+        return RedirectToAction("success", new{
+            fullName = fullName,
+            email = email,
+            department = department,
+            position = position,
+            hireDate = hireDate,
+            dateOfBirth = dateOfBirth,
+            employeeType = employeeType,
+            gender = gender,
+            salary = salary
+        });}
+    [HttpGet("success")]
+    public IActionResult Success(string fullName, string email, string department, string position, string hireDate, string dateOfBirth, string employeeType, string gender, string salary)
+    {
+        ViewBag.FullName = fullName;
+        ViewBag.Email = email;
+        ViewBag.Department = department;
+        ViewBag.Position = position;
+        ViewBag.HireDate = hireDate;
+        ViewBag.DateOfBirth = dateOfBirth;
+        ViewBag.EmployeeType = employeeType;
+        ViewBag.Gender = gender;
 
+        string cleanedSalary = salary.Replace("$", "").Replace(",", "").Trim();
+        if (decimal.TryParse(cleanedSalary, out decimal salaryValue))
+        {
+            ViewBag.Salary = salaryValue.ToString("C");
         }
+        else
+        {
+            ViewBag.Salary = "$0.00";
+        }
+
+        return View();
     }
+
 
     public IActionResult Privacy()
     {

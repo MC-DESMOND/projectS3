@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UbJcftEgVZrxKD5XCOFThfTYP/+Zwfjb6MsRxz3CkEM=",
+  "Hash": "sLRKjCMn77JebOwT3imsIn5pdw2R+9GPr9U/rUc/y8s=",
   "Source": "Main",
   "BasePath": "_content/Main",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "Main\\wwwroot",
       "Source": "Main",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css",
       "SourceId": "Main",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Main",
-      "RelativePath": "Main.styles.css",
+      "RelativePath": "Main#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,17 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "aweee1osih",
+      "Integrity": "6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css"
+      "OriginalItemSpec": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css",
       "SourceId": "Main",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Main",
-      "RelativePath": "Main.bundle.scp.css",
+      "RelativePath": "Main#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -50,1187 +52,692 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "aweee1osih",
+      "Integrity": "6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\css\\index.css",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\css\\index.css",
       "SourceId": "Main",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
-      "RelativePath": "css/index.css",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "uey4zxzzlm",
+      "Integrity": "Np4CQ5hYlAwwcweA6F9xMc6pViCdzMCVZlJLMsRMIKI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\css\\site.css",
       "SourceId": "Main",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\favicon.ico",
       "SourceId": "Main",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\js\\index.js",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\js\\index.js",
       "SourceId": "Main",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
-      "RelativePath": "js/index.js",
+      "RelativePath": "js/index#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "odh3rytttw",
+      "Integrity": "vE0/OxtsFw5iifAknAddXhneSSM2KFuj7+JrIRDz6Ps=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\js\\site.js",
       "SourceId": "Main",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\",
       "BasePath": "_content/Main",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xtxxf3hu2r",
+      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Np4CQ5hYlAwwcweA6F9xMc6pViCdzMCVZlJLMsRMIKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Np4CQ5hYlAwwcweA6F9xMc6pViCdzMCVZlJLMsRMIKI="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Route": "css/index.uey4zxzzlm.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Np4CQ5hYlAwwcweA6F9xMc6pViCdzMCVZlJLMsRMIKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uey4zxzzlm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Np4CQ5hYlAwwcweA6F9xMc6pViCdzMCVZlJLMsRMIKI="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Route": "css/site.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 11:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 11:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Route": "js/index.js",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vE0/OxtsFw5iifAknAddXhneSSM2KFuj7+JrIRDz6Ps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vE0/OxtsFw5iifAknAddXhneSSM2KFuj7+JrIRDz6Ps="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Route": "js/index.odh3rytttw.js",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vE0/OxtsFw5iifAknAddXhneSSM2KFuj7+JrIRDz6Ps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "odh3rytttw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vE0/OxtsFw5iifAknAddXhneSSM2KFuj7+JrIRDz6Ps="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Route": "js/site.xtxxf3hu2r.js",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xtxxf3hu2r"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Route": "Main.aweee1osih.bundle.scp.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aweee1osih"
+        },
+        {
+          "Name": "label",
+          "Value": "Main.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Route": "Main.aweee1osih.styles.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aweee1osih"
+        },
+        {
+          "Name": "label",
+          "Value": "Main.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Route": "Main.bundle.scp.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc="
+        }
+      ]
     },
     {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/bootstrap/LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery/dist/jquery.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\wwwroot\\",
-      "BasePath": "_content/Main",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "Route": "Main.styles.css",
+      "AssetFile": "C:\\Users\\HD\\Desktop\\projectS3\\Main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Main.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:28:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6jRqC+D0uAUwz1IxOgcqtZ2BZDhURjRanFXZcmOOGfc="
+        }
+      ]
     }
   ]
 }

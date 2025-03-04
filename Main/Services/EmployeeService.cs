@@ -16,7 +16,13 @@ public class EmployeeService
         var database = client.GetDatabase(settings.DatabaseName);
         _employees = database.GetCollection<Employee>(settings.EmployeesCollectionName);
     }
-
+    public EmployeeType ReturnEmployeeType(string type){
+        if (type.ToLower() == "contract"){
+            return EmployeeType.Contract;
+        }else{
+            return EmployeeType.Permanent;
+        }
+    }
     public async Task<List<Employee>> GetAllEmployees() =>
         await _employees.Find(emp => true).ToListAsync();
 
@@ -25,6 +31,7 @@ public class EmployeeService
 
     public async Task CreateEmployee(Employee employee) =>
         await _employees.InsertOneAsync(employee);
+
 
 
      public async Task<List<Employee>> FilterEmployees(string? name, string? department,string? type)

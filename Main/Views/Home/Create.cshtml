@@ -3,27 +3,36 @@
     Layout = null;
 }
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<head>
+    <link rel = "stylesheet" href = "~/css/site.css" asp-append-version = "true"/>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
 
 <div class = "page-container">
-    <div>
-        <i class = "fa-solid fa-user"></i>
+    <div class = "header">
+        <i class = "fa-solid fa-user" id = "fa-user"></i>
         <h2>Create New Employee</h2>
     </div>
 
-    <form method = "post" action = "/CreateUser/Create">
+    <form method = "post" action = "/create">
         <div class = "name-container">
             <label for = "fullName">Full Name:</label>
             <input type = "text" id = "fullName" name = "fullName" autocomplete = "off" placeholder = "Enter full name" required/>
         </div>
 
         <div class = "email-container">
-            <label for = "email"><i class = "fa-solid fa-envelope"></i>Email:</label>
+            <div>
+                <i class = "fa-solid fa-envelope" id = "fa-envelope"></i>
+                <label for = "email">Email:</label>
+            </div>
             <input type = "email" id = "email" name = "email" autocomplete = "off" placeholder = "Enter email address" required/>
         </div>
 
-        <div class = "department-container">
-            <label for = "department"><i class = "fa-solid fa-building"></i>Department:</label>
+        <div class = "dept-container">
+            <div>
+                <i class = "fa-solid fa-building" id = "fa-building"></i>
+                <label for = "department">Department:</label>
+            </div>
             <select name = "department" id = "department" required onchange = "updatePositions()">
                 <option value = "">Select Department</option>
                 <option value = "IT">IT</option>
@@ -33,24 +42,36 @@
         </div>
 
         <div class = "position-container">
-            <label for = "position"><i class = "fa-solid fa-briefcase"></i>Position:</label>
+            <div>
+                <i class = "fa-solid fa-briefcase" id = "fa-briefcase"></i>
+                <label for = "position">Position:</label>
+            </div>
             <select name = "position" id = "position" required disabled hidden">
                 <option value = "">Select Department First</option>
             </select>
         </div>
 
         <div class = "hire-date-container">
-            <label for = "hireDate"><i class = "fa-solid fa-calendar-days"></i>Hire Date:</label>
+            <div>
+                <i class = "fa-solid fa-calendar-days" id = "fa-calendar-days"></i>
+                <label for = "hireDate">Hire Date:</label>
+            </div>
             <input type = "date" id = "hireDate" name = "hireDate" required/>
         </div>
 
         <div class = "dob-container">
-            <label for = "dateOfBirth"><i class = "fa-solid fa-cake-candles"></i>Date of Birth:</label>
+            <div>
+                <i class = "fa-solid fa-cake-candles" id = "fa-cake-candles"></i>
+                <label for = "dateOfBirth">Date of Birth:</label>
+            </div>
             <input type = "date" id = "dateOdBirth" name = "dateOfBirth" required/>
         </div>
 
-        <div class = "employee-type-container">
-            <label for = "employeeType"><i class = "fa-solid fa-user-tie"></i>Employee Type:</label>
+        <div class = "emp-type-container">
+            <div>
+                <i class = "fa-solid fa-user-tie" id = "fa-user-tie"></i>
+                <label for = "employeeType">Employee Type:</label>
+            </div>
             <select id = "employeeType" name = "employeeType" required>
                 <option value = "">Select Employee Type</option>
                 <option value = "Permanent">Permanent</option>
@@ -59,25 +80,39 @@
         </div>
 
         <div class = "gender-container">
-            <label><i class = "fa-solid fa-venus-mars"></i>Gender:</label>
-            <input type = "radio" id = "male" name = "gender" value = "Male" required/>
-            <label for = "male">Male</label>
-            
-            <input type = "radio" id = "female" name = "gender" value = "Female" required/>
-            <label for = "female">Female</label>
-            
-            <input type = "radio" id = "other" name = "gender" value = "Other" required/>
-            <label for = "other">Other</label>
+            <div class = "key">
+                <i class = "fa-solid fa-venus-mars" id = "fa-venus-mars"></i>
+                <label>Gender:</label>
+            </div>
+            <div class = "value">
+                <div>
+                    <input type = "radio" id = "male" name = "gender" value = "Male" required/>
+                    <label for = "male">Male</label>
+                </div>
+                
+                <div>
+                    <input type = "radio" id = "female" name = "gender" value = "Female" required/>
+                    <label for = "female">Female</label>
+                </div>
+                
+                <div>
+                    <input type = "radio" id = "other" name = "gender" value = "Other" required/>
+                    <label for = "other">Other</label>
+                </div>
+            </div>
         </div>
 
         <div class = "salary-container">
-            <label for = "salary"><i class = "fa-solid fa-sack-dollar"></i>Salary:</label>
+            <div>
+                <i class = "fa-solid fa-sack-dollar" id = "fa-sack-dollar"></i>
+                <label for = "salary">Salary:</label>
+            </div>
             <input type = "number" id = "salary" name = "salary" required min = "0" step = "0.01">
         </div>
 
         <div class = "redirect-buttons">
-            <button type = "submit">Create</button>
-            <button>Back</button>
+            <button type = "submit"><i class = "fa-solid fa-circle-check" id = "fa-circle-check"></i>Create</button>
+            <button><i class = "fa-solid fa-circle-left" id = "fa-circle-left"></i>Back</button>
         </div>
     </form>
 </div>
