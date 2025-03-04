@@ -19,8 +19,12 @@ public class EmployeeService
     public EmployeeType ReturnEmployeeType(string type){
         if (type.ToLower() == "contract"){
             return EmployeeType.Contract;
-        }else{
+        }else if (type.ToLower() == "permanent"){
             return EmployeeType.Permanent;
+        }else if (type.ToLower() == "temporary"){
+            return EmployeeType.Temporary;
+        }else{
+            return EmployeeType.Temporary;
         }
     }
     public async Task<List<Employee>> GetAllEmployees() =>
