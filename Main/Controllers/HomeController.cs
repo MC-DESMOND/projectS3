@@ -9,9 +9,47 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
     private readonly ILogger<HomeController> _logger = logger;
     private readonly EmployeeService EmpServices = employeeService;
 
+
+[HttpGet("delete")]
+public async Task<IActionResult> Delete([FromQuery] string id)
+{
+    
+    var employee = await EmpServices.GetEmployeeById(id);
+    return View(employee);
+}
+
+    [HttpGet("deleted")]
+public async Task<IActionResult> Deleted([FromQuery] string id)
+{
+    // Dummy employee data (same as above)
+    await EmpServices.DeleteEmployee(id); // Keep the delete operation
+
+    return View();
+}
+
+    // public  async Task<IActionResult> Deleted([FromQuery] string  id)
+    // {
+    //     var employee = await EmpServices.GetEmployeeById(id);
+    //     await EmpServices.DeleteEmployee(id);
+    //     return View(employee); // Pass user details to Delete.cshtml
+    // }
+
+    public async void createDummyEmpWithName(string name, string Gender = "Male") {
+            await EmpServices.CreateEmployee(
+         new Employee
+        {
+            Name = name,
+            Email = name.ToLower().Replace(" ", "")+"@example.com",
+            Position = "Software Developer",
+            Department = "IT",
+            DateOfBirth = new DateTime(990, 5, 15).ToString("yyyy-MM-dd"),
+            Type = EmployeeType.Permanent,
+            Salary = "50000",
+            Gender = Gender
+        });}
     public async Task<IActionResult> Index()
     {
-        
+        // createDummyEmpWithName("Anita Doew","Female");
         var employees = await EmpServices.GetAllEmployees();
         return View(employees);
     }
@@ -21,6 +59,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
         var employees = await EmpServices.FilterEmployees(name, department,type);
         return View(employees);
     }
+    
     [HttpGet("details")]
     public async Task<IActionResult> Details( [FromQuery] string? id)
     {
@@ -28,7 +67,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
         return View(employees);
     }
 
-
+  
     [HttpGet("createform")]
     public IActionResult Create(){
         return View();

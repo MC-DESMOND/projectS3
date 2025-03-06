@@ -1,0 +1,44 @@
+@model Main.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+}
+
+<link rel="stylesheet" href="~/css/Delete.css" asp-append-version="true" />
+
+<div class="container">
+    <div class="header">⚠ Are you sure?</div>
+
+    @if (Model != null)
+    {
+        <p class="warning-text">
+            You are about to permanently delete this employee's record. This action is irreversible and will remove all data related to <strong>@Model.Name</strong>. Please confirm your decision.
+        </p>
+
+        <div class="details">
+            <div><strong>Full Name:</strong> <span>@Model.Name</span></div>
+            <div><strong>Email:</strong> <span>@Model.Email</span></div>
+            <div><strong>Position:</strong> <span>@Model.Position</span></div>
+            <div><strong>Department:</strong> <span>@Model.Department</span></div>
+            <div><strong>Date of Birth:</strong> <span>@Model.DateOfBirth</span></div>
+            <div><strong>Employee Type:</strong> <span>@Model.Type</span></div>
+            <div><strong>Salary:</strong> <span>@Model.Salary</span></div>
+        </div>
+
+        <div class="buttons">
+                <a href="/deleted?id=@Model.Id"><button class="delete-btn">Yes, Delete</button></a>
+                <a href="/" class="cancel-btn">Cancel</a>
+            </div>
+        @* Uncomment this form when delete functionality is ready *@
+
+    }
+    else
+    {
+        <p class="error">Employee not found or data is missing.</p>
+    }
+</div>
+
+
+
+
+
