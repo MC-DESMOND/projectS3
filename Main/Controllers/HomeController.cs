@@ -9,7 +9,7 @@ public class HomeController(ILogger<HomeController> logger, EmployeeService empl
     private readonly ILogger<HomeController> _logger = logger;
     private readonly EmployeeService EmpServices = employeeService;
 
-//Dummy Delete
+
 [HttpGet("delete")]
 public async Task<IActionResult> Delete([FromQuery] string id)
 {
@@ -67,7 +67,7 @@ public async Task<IActionResult> Deleted([FromQuery] string id)
         return View(employees);
     }
 
-
+  
     [HttpGet("createform")]
     public IActionResult Create(){
         return View();
