@@ -81,9 +81,8 @@ C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\refint\Main.dll
 C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.pdb
 C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.genruntimeconfig.cache
 C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\ref\Main.dll
-<<<<<<< HEAD
-=======
 >>>>>>> main
+>>>>>>> ayo
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\appsettings.json
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\bin\Debug\net8.0\Main.staticwebassets.runtime.json
@@ -123,4 +122,3 @@ C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\refint\Main
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.pdb
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.genruntimeconfig.cache
 C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\ref\Main.dll
->>>>>>> ayo
