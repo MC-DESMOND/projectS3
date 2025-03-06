@@ -82,12 +82,3 @@ C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.pdb
 C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\Main.genruntimeconfig.cache
 C:\Users\HD\Desktop\projectS3\Main\obj\Debug\net8.0\ref\Main.dll
 >>>>>>> main
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.csproj.AssemblyReference.cache
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.AssemblyInfoInputs.cache
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.AssemblyInfo.cs
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.csproj.CoreCompileInputs.cache
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.RazorAssemblyInfo.cache
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.RazorAssemblyInfo.cs
-C:\Users\MC DESMOND\dextop\aptechlab\projectS3\Main\obj\Debug\net8.0\Main.sourcelink.json
