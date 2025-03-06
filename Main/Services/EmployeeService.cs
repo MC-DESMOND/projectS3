@@ -16,12 +16,19 @@ public class EmployeeService
         var database = client.GetDatabase(settings.DatabaseName);
         _employees = database.GetCollection<Employee>(settings.EmployeesCollectionName);
     }
+
+    public async Task UpdateEmployee(string id, Employee employee) =>
+        await _employees.ReplaceOneAsync(emp => emp.Id == id, employee);
+
     public EmployeeType ReturnEmployeeType(string type){
-        if (type.ToLower() == "contract"){
+        if (type.Equals("contract", StringComparison.CurrentCultureIgnoreCase))
+            {
             return EmployeeType.Contract;
-        }else if (type.ToLower() == "permanent"){
+        }else if (type.Equals("permanent", StringComparison.CurrentCultureIgnoreCase))
+            {
             return EmployeeType.Permanent;
-        }else if (type.ToLower() == "temporary"){
+        }else if (type.Equals("temporary", StringComparison.CurrentCultureIgnoreCase))
+            {
             return EmployeeType.Temporary;
         }else{
             return EmployeeType.Temporary;

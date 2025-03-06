@@ -1,3 +1,4 @@
+@model Main.Models.Employee
 @{
     ViewData["Title"] = "Create User";
     Layout = null;
@@ -11,13 +12,15 @@
 <div class = "page-container">
     <div class = "header">
         <i class = "fa-solid fa-user" id = "fa-user"></i>
-        <h2>Create New Employee</h2>
+        <h2>Update Employee Details</h2>
     </div>
 
-    <form method = "post" action = "/create">
+    <form method = "post" action = "/update">
+        <input type="hidden" name="id" value="@Model.Id">
+
         <div class = "name-container">
             <label for = "fullName">Full Name:</label>
-            <input type = "text" id = "fullName" name = "fullName" autocomplete = "off" placeholder = "Enter full name" required/>
+            <input type = "text" value="@Model.Name" id = "fullName" name = "fullName" autocomplete = "off" placeholder = "Enter full name" required/>
         </div>
 
         <div class = "email-container">
@@ -25,7 +28,7 @@
                 <i class = "fa-solid fa-envelope" id = "fa-envelope"></i>
                 <label for = "email">Email:</label>
             </div>
-            <input type = "email" id = "email" name = "email" autocomplete = "off" placeholder = "Enter email address" required/>
+            <input type = "email" id = "email" value="@Model.Email" name = "email" autocomplete = "off" placeholder = "Enter email address" required/>
         </div>
 
         <div class = "dept-container">
@@ -46,7 +49,7 @@
                 <i class = "fa-solid fa-briefcase" id = "fa-briefcase"></i>
                 <label for = "position">Position:</label>
             </div>
-            <select name = "position" id = "position" required disabled>
+            <select name = "position" id = "position" required disabled >
                 <option value = "">Select Department First</option>
             </select>
         </div>
@@ -56,7 +59,7 @@
                 <i class = "fa-solid fa-calendar-days" id = "fa-calendar-days"></i>
                 <label for = "hireDate">Hire Date:</label>
             </div>
-            <input type = "date" id = "hireDate" name = "hireDate" required/>
+            <input type = "date" value="@Model.HireDate" id = "hireDate" name = "hireDate" required/>
         </div>
 
         <div class = "dob-container">
@@ -64,7 +67,7 @@
                 <i class = "fa-solid fa-cake-candles" id = "fa-cake-candles"></i>
                 <label for = "dateOfBirth">Date of Birth:</label>
             </div>
-            <input type = "date" id = "dateOdBirth" name = "dateOfBirth" required/>
+            <input type = "date" value="@Model.DateOfBirth" id = "dateOdBirth" name = "dateOfBirth" required/>
         </div>
 
         <div class = "emp-type-container">
@@ -73,10 +76,19 @@
                 <label for = "employeeType">Employee Type:</label>
             </div>
             <select id = "employeeType" name = "employeeType" required>
-                <option value = ""></option>
-                <option value = "Temporary">Temporary</option>
+                @if(Model.Type == Main.Models.EmployeeType.Temporary){
+                    <option value = "Temporary">Temporary</option>
                 <option value = "Permanent">Permanent</option>
                 <option value = "Contract">Contract</option>
+                }@if(Model.Type == Main.Models.EmployeeType.Contract){
+                <option value = "Contract">Contract</option>
+                    <option value = "Temporary">Temporary</option>
+                <option value = "Permanent">Permanent</option>
+                }@if(Model.Type == Main.Models.EmployeeType.Permanent){
+                <option value = "Permanent">Permanent</option>
+                <option value = "Contract">Contract</option>
+                    <option value = "Temporary">Temporary</option>
+                }
             </select>
         </div>
 
@@ -92,7 +104,7 @@
                 </div>
                 
                 <div>
-                    <input type = "radio" id = "female" name = "gender" value = "Female" required/>
+                    <input type = "radio" id = "female" name = "gender"  value = "Female" required/>
                     <label for = "female">Female</label>
                 </div>
                 
@@ -108,23 +120,26 @@
                 <i class = "fa-solid fa-sack-dollar" id = "fa-sack-dollar"></i>
                 <label for = "salary">Salary:</label>
             </div>
-            <input type = "number" id = "salary" name = "salary" required min = "0" step = "0.01">
+            <input type = "number" id = "salary" value="@Model.Salary" name = "salary" required min = "0" step = "0.01">
         </div>
 
         <div class = "redirect-buttons">
-            <button type = "submit"><i class = "fa-solid fa-circle-check" id = "fa-circle-check"></i>Create</button>
+            <button type = "submit"><i class = "fa-solid fa-circle-check" id = "fa-circle-check"></i>Update</button>
             <a href="/"><button><i class = "fa-solid fa-circle-left" id = "fa-circle-left"></i>Back</button></a>
         </div>
     </form>
 </div>
 
-<script>
+<script defer>
     @* Dynamic Dropdowns for Department and Position fields *@
-    function updatePositions()
+    var GenderRadioBtn = document.getElementById("@Model.Gender".toLowerCase())
+    GenderRadioBtn.click()
+    function updatePositions(Default = undefined)
     {
-        var department = document.getElementById("department").value;
+        var deparmentEl = document.getElementById("department")
+        var department = Default?Default:deparmentEl.value;
         var positionSelect = document.getElementById("position");
-
+        deparmentEl.value =department
         positionSelect.innerHTML = "";
 
         if (department === "IT")
@@ -152,7 +167,8 @@
             optionElement.textContent = position;
             positionSelect.appendChild(optionElement);
         });
-
+        console.log(positionSelect.innerHTML)
         positionSelect.disabled = false;
     }
+    updatePositions("@Model.Department")
 </script>

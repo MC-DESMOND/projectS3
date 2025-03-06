@@ -604,11 +604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\Main.csproj",
+      "projectPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\MC DESMOND\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\main\\obj\\",
+      "outputPath": "C:\\Users\\MC DESMOND\\dextop\\aptechlab\\projectS3\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MC DESMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -669,5 +669,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }
