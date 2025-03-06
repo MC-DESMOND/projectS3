@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bally\\.nuget\\packages\\": {}
+    "C:\\Users\\HD\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
+      "projectUniqueName": "C:\\Users\\HD\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
       "projectName": "Employee Portal",
-      "projectPath": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
-      "packagesPath": "C:\\Users\\bally\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\obj\\",
+      "projectPath": "C:\\Users\\HD\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
+      "packagesPath": "C:\\Users\\HD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HD\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bally\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HD\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -59,6 +60,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -67,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

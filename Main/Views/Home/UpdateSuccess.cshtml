@@ -1,0 +1,92 @@
+@{
+    ViewData["Title"] = "User Created!";
+    Layout = null;
+}
+
+<head>
+    <link rel = "stylesheet" href = "~/css/site.css" asp-append-version = "true"/>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<div class = "success-page">
+    <div class = "header">
+        <div>
+            <i class = "fa-solid fa-circle-check"></i>
+            <h2>Employee Updated Successfully!</h2>
+        </div>
+
+        <p>Welcome <strong>@ViewBag.FullName</strong>! We are excited to have you join the <strong>@ViewBag.Department</strong> department. Below are the details of the newly created employee:</p>
+    </div>
+
+    <div class = "body">
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-envelope" id = "fa-envelope"></i>
+                <p>Email:</p>
+            </div>
+            <p><strong>@ViewBag.Email</strong></p>
+        </div>
+        
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-briefcase" id = "fa-briefcase"></i>
+                <p>Position:</p>
+            </div>
+            <p><strong>@ViewBag.Position</strong></p>
+        </div>
+        
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-building" id = "fa-building"></i>
+                <p>Department:</p>
+            </div>
+            <p><strong>@ViewBag.Department</strong></p>
+        </div>
+        
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-calendar-days" id = "fa-calendar-days"></i>
+                <p>Hire Date:</p>
+            </div>
+            <p><strong>@ViewBag.HireDate</strong></p>
+        </div>
+        
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-cake-candles" id = "fa-cake-candles"></i>
+                <p>Date of Birth:</p>
+            </div>
+            <p><strong>@ViewBag.DateOfBirth</strong></p>
+        </div>
+        
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-user-tie" id = "fa-user-tie"></i>
+                <p>Employee Type:</p>
+            </div>
+            <p><strong>@ViewBag.EmployeeType</strong></p>
+        </div>
+
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-venus-mars" id = "fa-venus-mars"></i>
+                <p>Gender:</p>
+            </div>
+            <p><strong>@ViewBag.Gender</strong></p>
+        </div>
+
+        <div class = "details">
+            <div>
+                <i class = "fa-solid fa-sack-dollar" id = "fa-sack-dollar"></i>
+                <p>Salary:</p>
+            </div>
+            <p><strong>@ViewBag.Salary</strong></p>
+        </div>
+    </div>
+
+    <div class = "redirect-buttons">
+        <a href = "/">
+            <button><i class = "fa-solid fa-circle-left" id = "fa-circle-left"></i>Back to Employee List</button>
+        </a>
+    </div>
+</div>

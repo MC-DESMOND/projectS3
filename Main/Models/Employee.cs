@@ -27,7 +27,14 @@ public class Employee
     [BsonElement("salary")]
     public string Salary { get; set; }
     
+<<<<<<< HEAD
     [BsonElement("Dateofbirth")]
+=======
+    [BsonElement("hiredate")]
+    public string HireDate { get; set; }
+
+    [BsonElement("dateofbirth")]
+>>>>>>> main
     public string DateOfBirth { get; set; }
 
     [BsonElement("type")]
@@ -38,5 +45,7 @@ public class Employee
 public enum EmployeeType
 {
     Contract,
-    Permanent
+    Permanent,
+    Temporary,
+    
 }

@@ -17,6 +17,23 @@ public class EmployeeService
         _employees = database.GetCollection<Employee>(settings.EmployeesCollectionName);
     }
 
+    public async Task UpdateEmployee(string id, Employee employee) =>
+        await _employees.ReplaceOneAsync(emp => emp.Id == id, employee);
+
+    public EmployeeType ReturnEmployeeType(string type){
+        if (type.Equals("contract", StringComparison.CurrentCultureIgnoreCase))
+            {
+            return EmployeeType.Contract;
+        }else if (type.Equals("permanent", StringComparison.CurrentCultureIgnoreCase))
+            {
+            return EmployeeType.Permanent;
+        }else if (type.Equals("temporary", StringComparison.CurrentCultureIgnoreCase))
+            {
+            return EmployeeType.Temporary;
+        }else{
+            return EmployeeType.Temporary;
+        }
+    }
     public async Task<List<Employee>> GetAllEmployees() =>
         await _employees.Find(emp => true).ToListAsync();
 
@@ -28,6 +45,7 @@ public class EmployeeService
 
     public async Task DeleteEmployee(string id) =>
             await _employees.DeleteOneAsync(emp => emp.Id == id);
+
 
      public async Task<List<Employee>> FilterEmployees(string? name, string? department,string? type)
         {

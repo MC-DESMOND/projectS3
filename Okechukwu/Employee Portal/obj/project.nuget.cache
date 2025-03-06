@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ULYL3puAd2I=",
+  "dgSpecHash": "DS+iRZWZat8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bally\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\HD\\Desktop\\projectS3\\Okechukwu\\Employee Portal\\Employee Portal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HD\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\HD\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\HD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\HD\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.13\\microsoft.netcore.app.host.win-x64.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
